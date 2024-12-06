@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Tarea3._2.MainPage">
+
+    <ScrollView>
+        
+        <StackLayout Padding="20">
+            <Label Text="Bienvenido a la App" 
+               FontSize="24" 
+               TextColor="{StaticResource PrimaryColor}" 
+              
+               HorizontalOptions="Center" />
+            
+            <Button Text="Iniciar Sesión" 
+                Style="{StaticResource ButtonStyle}" 
+                HorizontalOptions="Center" 
+                Clicked="OnLoginButtonClicked" />
+        </StackLayout>
+        
+    </ScrollView>
+
+</ContentPage>

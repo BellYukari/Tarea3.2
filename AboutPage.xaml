@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Tarea3._2.AboutPage"
+             Title="AboutPage">
+    
+    <StackLayout Padding="20">
+        
+        <Label Text="Acerca de Nosotros" 
+               FontSize="24" 
+               TextColor="{StaticResource PrimaryColor}" 
+              
+               HorizontalOptions="Center" />
+        <Label Text="Esta es una aplicación de ejemplo." 
+               FontSize="16" 
+               TextColor="{StaticResource SecondaryColor}" 
+               
+               HorizontalOptions="Center" />
+    </StackLayout>
+    
+</ContentPage>
